@@ -2,6 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
+    <title>创建用户</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <jsp:include page="../header.jsp"></jsp:include>
     <script type="text/javascript" src="assets/js/validate.js"></script>

@@ -20,14 +20,14 @@ public class EnterpriseController extends BaseController {
 	/**
 	 * 根据当前登录用户Id查询出企业详情
 	 */
-	public void findEnterpriseByUid() {
+	public void store() {
 		int userId = getUser().getInt("id");
 		String sql = "select * from Enterprise where uid=" + userId;
 		
 		Enterprise enter = Enterprise.dao.findFirst(sql);
 		
 		setAttr("enter", enter);
-		render("/pager/enterprise/detail.jsp");
+		render("/pager/enterprise/enter_detail.jsp");
 	}
 	
 	/**

@@ -153,7 +153,7 @@ function jumpto(title,url){
 	if (jq("#tabs").tabs("exists", title)){
 		jq("#tabs").tabs("select", title);
 	} else {
-		var content = "<iframe  scrolling="no" frameborder="0"  src=""+url+"" style="width:100%;height:99%;"></iframe>";
+		var content = "<iframe  scrolling='no' frameborder='0'  src='"+url+"' style='width:100%;height:99%;'></iframe>";
 		jq("#tabs").tabs("add",{
 			title:title,
 			content:content,
@@ -188,11 +188,11 @@ function showDialog(){
 }
 
 function createColumnMenu() {
-	var tmenu = $("<div id="tmenu" style="width:100px;"></div>").appendTo(
+	var tmenu = $("<div id='tmenu' style='width:100px;'></div>").appendTo(
 			"body");
 	var fields = $("#tt").datagrid("getColumnFields");
 	for ( var i = 0; i < fields.length; i++) {
-		$("<div iconCls="icon-ok"></fields>").html(fields[i]).appendTo(tmenu);
+		$("<div iconCls='icon-ok'></fields>").html(fields[i]).appendTo(tmenu);
 	}
 	tmenu.menu({
 		onClick : function(item) {

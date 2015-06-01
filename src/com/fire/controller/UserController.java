@@ -1,7 +1,5 @@
 package com.fire.controller;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
@@ -31,7 +29,7 @@ public class UserController extends BaseController {
         
         // 支队指定单位、区域
         if(role == Constant.SUBBOSS) {
-        	user.set("did", getPara("did"));
+        	user.set("did", getPara("department"));
         }
         
 //        Map<String,Object> param = new HashMap<String, Object>();
