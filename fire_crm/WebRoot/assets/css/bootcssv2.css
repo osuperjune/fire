@@ -1,0 +1,165 @@
+body{
+	background:#fff;
+}
+.navbar-default{
+	background: url(../../biz-logic/images/topbg.jpg) repeat-x scroll;
+	border:none;
+	font-size:13px;
+	background-color: #3d4e68;
+}
+.dropdown-menu{
+	font-size:13px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #F0F0F0;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+.panel-paddlr{
+	padding:0px 15px;
+}
+hr{
+	border-top-color: #dadada;
+}
+.table thead{
+	/* info */
+	/* color: #31708f; 
+	background-color: #d9edf7;
+	border-color: #bce8f1; */
+	/* primary*/
+	color: #fff;
+	background-color: #428bca;
+	border-color: #428bca;
+	font-size: 13px;
+}
+.table thead>tr>td,.table thead>tr>th{
+	height: 22px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.table > thead > tr > th{
+	border-bottom: none;
+}
+.table tbody > tr > td{
+	text-align: center;
+} 
+/*列表 查询条件*/
+.listform select,{
+	height:30px;
+}
+.listform .col-md-1{
+	padding:0px;
+	width:auto;
+	line-height:30px;
+	font-size:13px;
+}
+.listform .col-md-home{
+	/* padding-left:15px; */
+}
+.listform table{
+	width:100%;
+}
+.listform table .tabpdg td{
+	padding-right:20px;
+}
+.listform table .tabpdgten td{
+	padding-right:10px;
+}
+.listform table .tabpdg .tabend{
+	padding-right:0px;
+}
+.listform > table tr + tr td{
+	padding-top:20px;
+}
+
+.btn-l-dist-5{
+	margin-left:5px;
+}
+.btn-l-dist-10{
+	margin-left:10px;
+}
+.rows{
+	padding:0px;
+	width:100%;
+	display:table;
+	margin-top:20px;
+}
+.partpage{
+	font-size:13px;
+	margin-top:16px;
+}
+.pagination{
+	margin:5px 0px;
+}
+.totaltr{
+	font-weight:bold;
+}
+.table > tbody + tbody {
+  border-top: 1px solid #dddddd;
+}
+.manager_app_list tbody tr td{
+	line-height: 30px;
+}
+#line-td-20 td{
+	line-height: 20px;
+}
+/*开发者后台首页 css---------start*/
+.clearfix{
+	padding: 0px;
+	padding-bottom: 10px;
+}
+.clearfix li{
+	list-style: none;	
+}
+.clearfix li{
+	width: 173px;
+	height: 100px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #ECECEC;
+}
+.clearfix li .inicon{
+	height: 55px;
+	line-height:55px;
+	border-bottom: 1px solid #dedede;
+	font-weight: bold;
+	background:#FAFAFA;
+}
+.clearfix li .inicon,.clearfix .incon{
+	font-size: 15px;
+	color:#666;
+}
+.clearfix .incon{
+	height: 45px;
+	line-height:45px;
+	color: #2F7ED8;
+}
+.clearfix .li-end{
+	margin-right:0px;
+}
+.adaward li{
+	width: 560px;	
+}
+.adaward p{
+	float:left;
+	margin:0px;
+	width:50%;
+}
+.adaward p:first-child{
+	border-right:1px solid #D7D7D7;
+}
+.adaward b{
+}
+.aw{
+	margin-top:30px;
+}
+.clearfix .awardyet{
+	margin-left:40px;
+}
+/*开发者后台首页 css---------end*/

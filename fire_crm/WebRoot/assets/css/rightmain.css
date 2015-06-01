@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+/*主界面*/
+.right-main{width:100%; float:left;}
+.right-main .right-ctx{ margin-left:5px; margin-right:5px;}
+.right-ctx .search-div{width:100%; height:38px; float:left }
+.search-div-l{ height:38px; background:url(../images/rightmain/search-icon01.png) no-repeat; font-size:16px; color:#1889CF; line-height:38px;}
+.search-div-r{ height:38px; line-height:38px; margin-left:10px;}
+.search-input,.search-select{ width:150px; line-height:28px; height:28px; margin-right:5px;}
+.tab-div{width:100%; float:left; margin-top:5px;}
+.tab-div .table{width:100%; border:1px solid #eaeaea;}
+.table tr{ height:38px; width:100%;}
+.table tr:hover{background:#D4E7F0;}
+.table tr td{ text-align:center;}
+.table tr td.oprate{width:120px;}
+.table tr:first-child{ height:40px; width:100%; background: url(../images/rightmain/tab-head-bg.jpg) repeat-x; color:#000;}
+.table .odd{ background:#F2F9FF;}
+.div-btn{height:20px; float:left; cursor:pointer; margin-left:10px; margin-right:10px;}
+.div-btn-del{width:17px; background: url(../images/rightmain/div-btn-del.png);}
+.div-btn-edit{width:19px; background: url(../images/rightmain/div-btn-edit.png);}
+.page-div{ width:100%;display: block; height: 25px;overflow: hidden; text-align: center;}
+.page-div a{cursor: pointer; display: inline-block; height: 25px;line-height: 25px;padding: 0 8px;text-align: center;text-decoration: none; font-size:12px; background:#d4dde2;}
+.page-div a:hover,.page-div a.current{ background:#2B93D5; color:#fff;}
+
+
+#pagetr:hover{ background:#fff;}

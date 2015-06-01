@@ -1,0 +1,31 @@
+$(function(){
+	$("#userList").datagrid({
+		title:"用户信息列表",
+		toolbar:"#tb",
+		width:838,
+		height:'auto',
+		nowrap:false,
+		striped:true,
+		url:basePath+"user/list",
+		pageNumber:1,
+		columns:[[
+           {field:"username",title:"用户名",width:110},
+           {field:"usbkey",title:"USBKEY",align:"center",width:140,},
+           {field:"realname",title:"真实姓名",align:"center",width:110},
+           {field:"sex",title:"性别",align:"center",width:60},
+           {field:"remark",title:"人员类型",width:110},
+           {field:"username1",title:"所属单位",width:110},
+           {field:"idcard",title:"身份证号",align:"left",width:160}
+		]],
+		pagination:true,
+		rownumbers:true,
+		singleSelect:true
+	});
+	
+	$("#searchUser").click(function(){
+		$("#userList").datagrid("load",{
+			username:$("#username").val(),
+			department:$("#department").val()
+		});
+	});
+});
