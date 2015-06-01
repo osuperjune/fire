@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+/*左侧菜单*/
+.sideMenu{position:absolute;left: 0px;top:0px;width: 100%;cursor:pointer;margin:0 auto; }
+.sideMenu h3{ height:38px; line-height:38px; cursor:pointer;font:normal 14px/38px "Microsoft YaHei";font-weight: bold;background: url('../images/leftmenu/side_h3.gif') 0px 0px no-repeat;padding-left: 45px;
+}
+.sideMenu h3 em{ float:right; display:block; width:40px; height:32px;   background:url(../images/icoAdd.png) 16px 12px no-repeat; cursor:pointer; }
+.sideMenu h3.on { background: url(../images/leftmenu/side_h3_on.gif) 0px 0px no-repeat; }
+.sideMenu ul{ display:none; /* 默认都隐藏 */ }
+.sideMenu ul li{height: 31px;line-height: 31px;font:normal 13px/31px "Microsoft YaHei";padding-left: 50px;background: url('../images/leftmenu/side_li.gif') 40px 13px no-repeat;
+}
+.sideMenu ul li.on{ background: url('../images/leftmenu/side_li_on.png') 0px 0px no-repeat;color: #fff;}
+.scroll{ position:absolute; left:2px; bottom:25px; width:60px; height:42px;height:42px;overflow:hidden; display:none;z-index: 3;}
+.scroll a {display: inline-block;zoom: 1;}
+.scroll a{ background:url(../images/leftmenu/scroll_bg.png) no-repeat left top; width:48px; height:17px;margin: 0px 5px;}
+.scroll a:hover{ background-position:left bottom;}
+.scroll a.next{background-position:right top;}
+.scroll a.next:hover{ background-position:right bottom;}
+
+
+
+/*重写easyUI的默认样式*/
+.accordion .accordion-header{ background:url(../images/leftmenu/side_h3.gif);}
+.panel-header{ padding:0; height:38px; line-height:38px; background:url(../images/leftmenu/side_h3.gif);font:bold 14px/38px "Microsoft YaHei";color:#404040; border:none;}
+.panel-header .panel-title{ height:38px; line-height:38px; padding-left:50px;}
+.accordion-body ul{ margin:0; padding:0; width:100%; overflow:hidden;}
+.accordion-body ul li{width:206px;height:31px;}
+.accordion-body ul li a{ margin:0; padding:0; text-align:left;background:none; color:#404040; width:156px; padding-left:50px; cursor:pointer; height:31px; line-height:31px;}
+.accordion-body ul li a.on{ background:url(../images/leftmenu/side_li_on.gif); color:white;}
+
+#menu{ border:none;}
+.layout-split-west{ border-right:5px solid #fff;}
+
+
